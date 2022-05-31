@@ -1,0 +1,79 @@
+body {
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c232d;
+    border: 1px solid #1c232d;
+    border-radius: 25px 25px 25px 25px;
+    width: 350px;
+    height: 350px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.h1 {
+    display: flex;
+    width: 300px;
+}
+
+img {
+    border: 1px solid #262f38;
+    border-radius: 50%;
+    background-color: #262f38;
+    padding: 10px;
+}
+
+.icon-star {
+    display: flex;
+    width: 300px;
+    margin-top: 15px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-right: 35px;
+}
+
+li {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #262f38;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    background-color: #262f38;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    height: 35px;
+    width: 280px;
+    border: 1px hsl(25, 97%, 53%);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
