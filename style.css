@@ -48,9 +48,6 @@ p {
 
 ul {
     list-style: none;
-}
-
-ul {
     display: flex;
     width: 300px;
     justify-content: space-around;
@@ -68,6 +65,11 @@ li {
     padding: 10px;
 }
 
+li:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
 button {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
@@ -76,4 +78,9 @@ button {
     border: 1px hsl(25, 97%, 53%);
     border-radius: 15px;
     margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
 }
