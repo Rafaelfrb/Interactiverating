@@ -5,68 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Overpass">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   
-  
   <title>Interactive rating component</title>
-
-  
 </head>
 <body>
+  <div class="container">
+    <div class="icon-star">
+      <img class="star" src="images/icon-star.svg">
+    </div>
+    <div class="h1">
+      <h1 class="title">How did we do?</h1>
+    </div>
+    <p>Please let us know how we did with your support</br>
+      request. All feedback is appreciated to help us</br>
+      improve our offering!</p>
 
-  <!-- Rating state start -->
-<div class="container">
-
-  <div class="icon-star">
-    <img class="star" src="images/icon-star.svg">
-  </div>
-  <div class="h1">
-    <h1 class="title">How did we do?</h1>
-  </div>
-  <p>Please let us know how we did with your support</br>
-     request. All feedback is appreciated to help us</br>
-     improve our offering!</p>
-
-    <ul>
-      <li class="rating">1</li>
-      <li class="rating">2</li>
-      <li class="rating active">3</li>
-      <li class="rating">4</li>
-      <li class="rating">5</li>
-    </ul>
-  
-
-  <button class="button">SUBMIT</button>
-</div>
-
-<div class="container2 hide">
-
-  <img src="images/illustration-thank-you.svg">
-  
-  <div class="result">
-    <div>You selected <span class="scoreresult">4</span> out of 5</div>
+      <ul>
+        <li class="rating">1</li>
+        <li class="rating">2</li>
+        <li class="rating active">3</li>
+        <li class="rating">4</li>
+        <li class="rating">5</li>
+      </ul>
+    
+    <button class="button">SUBMIT</button>
   </div>
 
-  <h2 class="title">Thank you!</h2>
+  <div class="container2 hide">
 
-  <div class="text">
-    We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+    <img src="images/illustration-thank-you.svg">
+    
+    <div class="result">
+      <div>You selected <span class="scoreresult">4</span> out of 5</div>
+    </div>
+
+    <h2 class="title">Thank you!</h2>
+
+    <div class="text">
+      We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+    </div>
+
   </div>
-
-</div>
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  <!--You selected  (Add rating here)  out of 5-->
-
-  <!--Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!-->
-
-  <!-- Thank you state end -->
-    <script src="scripts.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
